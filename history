@@ -1,0 +1,13 @@
+606  git clone https://jarve@github.com/jarvelai/git-training.git
+  607  git clone https://jarve@github.com/jarve/git-training.git
+  608  cd git-training/
+  609  ls
+  610  emacs pjnewfile
+  611  git add pjnewfile
+  612  git --version
+  613  git commit -am "a demonstration file."
+  614  git config --global user.email e@mail
+  615  git config --global user.name 'Pekkä Järveläinen'
+  616  git commit -am "a demonstration file."
+  617  git log
+  618  git push
