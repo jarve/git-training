@@ -11,3 +11,20 @@
   616  git commit -am "a demonstration file."
   617  git log
   618  git push
+684  cat op-testi 
+  685  mv pekanuusitiedosto.txt pekanvanhatiedosto.txt 
+  686  git add pekanvanhatiedosto.txt 
+  687  git commit -am "vaihdoin tiedostonnimen, mites käy?"
+  688  git branch -v
+  689  git merge newfeature
+  690* 
+  691  git branch -v
+  692  git branch -av
+  693  git push
+  694  git fetch
+  695  git pull --rebase
+  696  git push
+  697  git pull --rebase
+  698  git push
+  699  git pull --rebase
+  700  git push
